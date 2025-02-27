@@ -1,0 +1,125 @@
+.task
+{
+    
+    height: 250px;
+    width: 380px;
+    border: 1px solid white;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color:transparent;
+    backdrop-filter: blur(30px);
+}
+.task1
+{
+    
+    height: 250px;
+    width: 380px;
+    border: 1px solid white;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur (20px);
+
+}
+.task2
+{
+    height: 250px;
+    width: 380px;
+    border: 1px solid white;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+}
+.task3
+{
+    height: 250px;
+    width: 380px;
+    border: 1px solid white;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color:transparent;
+    backdrop-filter: blur(30px);
+}
+.minnav
+{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.add
+{
+    background: none;
+    border: none;
+    margin-left: 100px;
+}
+.add:hover{
+    cursor: pointer;
+}
+.container
+{
+    width: 180px;
+    color: white;
+}
+.notes
+{
+    width: 120px;
+    height: 88%;
+    border-bottom-right-radius: 13px;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 100px;
+    margin-top: -230px;
+    margin-left: 180px;
+    color: black;
+}
+.note
+{
+    width: 180px;
+    height: 160px;
+    margin-left: 10px;
+    background: transparent;
+    backdrop-filter: 10px;
+    border-radius: 18px;
+    border: none;
+    font-size: larger;
+    margin-top: 10px;
+    color: rgb(250, 249, 249);
+}
+.task:hover
+{
+    box-shadow: white 5px 5px 5px;
+    transition: 2s;
+}
+.task1:hover
+{
+    box-shadow: white 5px 5px 5px;
+    transition: 2s;
+}
+.task2:hover
+{
+    box-shadow: white 5px 5px 5px;
+    transition: 2s;
+}
+.task3:hover
+{
+    box-shadow: white 5px 5px 5px;
+    transition: 2s;
+}
+.taskname
+{
+    margin-top: 10px;
+}

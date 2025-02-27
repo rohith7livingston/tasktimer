@@ -1,0 +1,128 @@
+.body{
+    background: black;
+}
+.logo{
+    margin-top: -299%;
+}
+.text-one {
+    width: 150vh;
+    color: #fff;
+    margin-top: -15%;
+    margin-left: 15%;
+    font-weight: 400;
+    font-family: 'poppin', sans-serif;
+    font-size: 40px;
+    letter-spacing: 8px;
+    position: relative;
+    background: black;
+    animation: text 3s 1;
+    margin-bottom: 20px;
+}
+
+.text-one span {
+    color: #fff;
+}
+
+.text-one .span2 {
+    color: crimson;
+}
+
+.text-one .span1 {
+    color: crimson;
+}
+
+.text-two {
+    font-size: 30px;
+    color: #6ab04c;
+    font-family: 'poppin', sans-serif;
+    letter-spacing: 5px;
+    margin-left: 15%;
+}
+
+.input-box {
+    position: relative;
+    width: 110vh;
+    height: 50px;
+    margin: 30px 0;
+    margin-left: 15%;
+    animation: text 3s 1; 
+}
+
+.input-box input {
+    width: 40%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.544);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    animation: input-animation 3s 1; 
+}
+
+.input-box input:hover {
+    box-shadow: 2px 2px 13px rgba(254, 253, 253, 0.76);
+}
+
+.button {
+    width: 10%;
+    color: white;
+    margin-left: 16%;
+    animation: button-animation 3s 1;
+    border: 1px solid #fff;
+    background-color: transparent;
+    background: transparent;
+    border-radius: 10px ;
+    height: 35px;
+}
+.button2{
+    width: 10%;
+    color: white;
+    margin-left: 6%;
+    animation: button-animation 3s 1;
+    border: 1px solid #fff;
+    background-color: transparent;
+    background: transparent;
+    border-radius: 10px ;
+    height: 35px;
+}
+@keyframes button-animation {
+    0% {
+        
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    80% {
+        
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 15px;
+        margin-bottom: -40px;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+@keyframes input-animation {
+   
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

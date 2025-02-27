@@ -1,0 +1,97 @@
+body { 
+	padding: 0; 
+	margin: 0; 
+	font-family: verdana; 
+} 
+
+.container { 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	width: 180px; 
+	height: 230px; 
+	background-color: transparent; 
+} 
+.top
+{
+	display: flex;
+	width: 40px;
+	height: 30px; 
+	margin-top: 20px;  
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+	padding-left: 40px;
+	font-size: 7px; 
+	transition: 0.5s; 
+	color: white; 
+	font-weight: 500; 
+}
+.btn1
+{
+	margin-left: -150px;
+	border: none;
+	width: 70px;
+	height: 30px;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+.btn2
+{
+	margin-left: 5px;
+	border: none;
+	width: 70px;
+	border-radius: 20px;
+	height: 30px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+h1{ 
+	
+	color: rgb(255, 255, 255); 
+	text-align: center; 
+	font-size: 19px;
+	margin-top: -8px;
+} 
+
+.digit { 
+	font-size: 30px; 
+	color: rgb(255, 252, 252); 
+} 
+
+.txt { 
+	font-size: 30px; 
+	color: rgb(255, 255, 255); 
+} 
+
+#buttons { 
+	margin-top: 10px; 
+} 
+
+.btn2{ 
+	width: 70px;  
+	height: 30px; 
+	border: none;
+	margin-top: 8px;
+	border-radius: 4px;
+	cursor: pointer; 
+	font-size: 10px; 
+	transition: 0.5s; 
+	color: white; 
+	font-weight: 500; 
+} 
+
+#start { 
+	background-color: #a5ff8f; 
+} 
+
+#stop { 
+	background-color: #49a4ff; 
+} 
+
+#reset { 
+	background-color: #ff5643; 
+}

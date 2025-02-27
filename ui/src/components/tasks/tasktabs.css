@@ -1,0 +1,20 @@
+.tabs
+{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    margin-left: 20px;
+    color: white;
+    border-radius: 18px;
+    display: inline;
+}
+.taskname
+{
+    text-align: left;
+    color: red;
+}
+.time
+{
+    text-align: center;
+    margin-top: 200px;
+}
