@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './TaskTimer.css';
 import LogIn from '../sighnup/login';
-import Profile from '../dashboard/profile';
-import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import ParticlesComponent from '../dashboard/particles/Particles';
 const TaskTimer = () => {
     const [showLogin, setShowLogin] = useState(false);

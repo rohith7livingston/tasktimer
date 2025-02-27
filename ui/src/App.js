@@ -4,6 +4,7 @@ import LogIn from './sighnup/login';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import TaskTimerModal from './TaskTimer/TaskTimer';
 import Profile from './dashboard/profile';
+
 function App()
 {
   return(
