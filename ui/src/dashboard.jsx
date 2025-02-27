@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './dashboard.css';
 import Tab from './components/tasks/tasktabs';
 import { FiAlignJustify } from "react-icons/fi";
+import { CgSomeIcon } from 'react-icons/cg';
+
 function Dashboard() {
     return (
         <div className='dash'>
